@@ -1,0 +1,123 @@
+/**{
+	margin: 0;
+	padding: 0;
+}*/
+.main {
+	width: 1024px;
+	height: 800px;
+	margin: 0 auto;
+}
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: rgb(32,136,191);
+	position: relative;
+}
+.img1 {
+	margin-left: 50px;
+	margin-top: 12px;
+}
+.input1 {
+	position: absolute;
+	top: 20px;
+	left: 700px;
+	width: 200px;
+	height: 25px;
+	background-color: white;
+	border-radius: 8px 8px 8px 8px;
+	padding-left: 15px;
+}
+.input1 img {
+	padding-top: 5px;
+}
+.span1 {
+	position: absolute;
+	top: 20px;
+	left: 930px;
+	height: 25px;
+	line-height: 25px;
+	color: white;
+}
+.left-nav {
+	width: 25%;
+	height: 680px;
+	background-color: rgb(43,46,61);
+	float: left;
+}
+.circle1 {
+	width: 100%;
+	height: 120px;
+	position: relative;
+}
+.circle2 {
+	width: 60px;
+	height: 60px;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.circle3 {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: rgb(185,186,190);
+}
+.num {
+	position: absolute;
+	top: 25px;
+	left: 120px;
+	color: white;
+}
+.fan {
+	width: 100%;
+	height: 50px;
+	color: rgb(185,186,190);
+}
+.fan li {
+	list-style: none;
+}
+.li1 {
+	float: left;
+	list-style: none;
+}
+.nav-detail {
+	width: 100%;
+	height: auto;
+	color: white;
+	padding-left: 40px;
+}
+.right-detail {
+	width: 75%;
+	height: 680px;
+	border: 1px solid blue;
+	margin-left: 25%;
+}
+.place {
+	width: 100%;
+	height: 30px;
+	color: rgb(170,170,170);
+	position: relative;
+}
+.place p {
+	position: absolute;
+	top: -8px;
+	left: 30px;
+}
+.place span{
+	color: rgb(34,138,193);
+}
+.detail {
+	width: 100%;
+	height: 630px;
+	background-color: rgb(238,238,238);
+	padding-top: 20px;
+}
+.check {
+	width: 90%;
+	height: 85px;
+	margin: 0 auto;
+	background-color: white;
+}
