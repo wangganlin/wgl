@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 20px;
+}
+
+.main {
+	width: 100%;
+	height: auto;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: none;
+}
+
+.main > div {
+	width: 150px;
+	border: 1px solid #f00;
+	box-sizing: border-box;
+}
+.div1 {
+	height: 120px;
+}
+.div2 {
+	height: 100px;
+}
+.div3 {
+	height: 40px;
+}
+.div4 {
+	height: 200px;
+	border: 1px solid blue!important;
+}
+@media all and (max-width: 800px) {
+    .div4 {
+        order: -1;
+    }
+    .main {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
